@@ -1,0 +1,6 @@
+category: Gnome
+requires: cygwin glib2-runtime libxml2
+sdesc: "GNOME CSS2 parser library (runtime)"
+ldesc: "Libcroco is a standalone css2 parsing and manipulation library.
+The parser provides a low level event driven SAC like api
+and a css object model like api."
