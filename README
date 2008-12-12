@@ -1,26 +1,27 @@
-libcroco06
+libcroco0.6
 ------------------------------------------
 Libcroco is a standalone css2 parsing and manipulation library.
 The parser provides a low level event driven SAC like api
 and a css object model like api.
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  glib2-runtime-2.6.6-2
-  libxml2-2.6.22-1
+  cygwin-1.5.25-15
+  libglib2.0_0-2.18.3-1
+  libxml2-2.7.2-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.19-4
-  autoconf2.5-2.59-3
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  gawk-3.1.5-1
-  gcc-core-3.4.4-1
-  libtool1.5-1.5.20-2
-  make-3.80-1
-  pkg-config-0.20-1
-  sed-4.1.4-1
+  autoconf2.5-2.63-1
+  automake1.9-1.9.6-2
+  binutils-20080624-2
+  cygport-0.4.3-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gnome-common-2.24.0-1
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
 
 Canonical website:
   http://www.gnome.org/
@@ -31,37 +32,39 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libcroco06-0.6.1-X-src.tar.bz2
+  unpack libcroco0.6-0.6.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./libcroco-0.6.1-X.sh all
+  cygport ./libcroco0.6-0.6.1-X.cygport all
 
 This will create:
-  /usr/src/libcroco06-0.6.1-X-src.tar.bz2
-  /usr/src/libcroco06-0.6.1-X.tar.bz2
-  /usr/src/libcroco06-devel-0.6.1-X.tar.bz2
+  /usr/src/libcroco0.6-0.6.1-X-src.tar.bz2
+  /usr/src/libcroco0.6-0.6.1-X.tar.bz2
+  /usr/src/libcroco0.6-devel-0.6.1-X.tar.bz2
+  /usr/src/libcroco0.6_3-0.6.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the main package:
 
+(libcroco0.6)
   /usr/bin/csslint-0.6.exe
+  /usr/share/doc/libcroco0.6-0.6.1/ABOUT-NLS
+  /usr/share/doc/libcroco0.6-0.6.1/AUTHORS
+  /usr/share/doc/libcroco0.6-0.6.1/ChangeLog
+  /usr/share/doc/libcroco0.6-0.6.1/COPYING
+  /usr/share/doc/libcroco0.6-0.6.1/COPYING.LIB
+  /usr/share/doc/libcroco0.6-0.6.1/HACKING
+  /usr/share/doc/libcroco0.6-0.6.1/INSTALL
+  /usr/share/doc/libcroco0.6-0.6.1/NEWS
+  /usr/share/doc/libcroco0.6-0.6.1/README
+  /usr/share/doc/libcroco0.6-0.6.1/TODO
+
+(libcroco0.6_3)
   /usr/bin/cygcroco-0.6-3.dll
-  /usr/share/doc/Cygwin/libcroco06-0.6.1.README
-  /usr/share/doc/libcroco06-0.6.1/ABOUT-NLS
-  /usr/share/doc/libcroco06-0.6.1/AUTHORS
-  /usr/share/doc/libcroco06-0.6.1/ChangeLog
-  /usr/share/doc/libcroco06-0.6.1/COPYING
-  /usr/share/doc/libcroco06-0.6.1/COPYING.LIB
-  /usr/share/doc/libcroco06-0.6.1/HACKING
-  /usr/share/doc/libcroco06-0.6.1/INSTALL
-  /usr/share/doc/libcroco06-0.6.1/NEWS
-  /usr/share/doc/libcroco06-0.6.1/README
-  /usr/share/doc/libcroco06-0.6.1/TODO
 
-Files included in the devel package:
-
+(libcroco0.6-devel)
   /usr/bin/croco-0.6-config
   /usr/include/libcroco-0.6/libcroco/cr-additional-sel.h
   /usr/include/libcroco-0.6/libcroco/cr-attr-sel.h
@@ -91,7 +94,6 @@ Files included in the devel package:
   /usr/include/libcroco-0.6/libcroco/cr-utils.h
   /usr/include/libcroco-0.6/libcroco/libcroco-config.h
   /usr/include/libcroco-0.6/libcroco/libcroco.h
-  /usr/lib/libcroco-0.6.a
   /usr/lib/libcroco-0.6.dll.a
   /usr/lib/libcroco-0.6.la
   /usr/lib/pkgconfig/libcroco-0.6.pc
@@ -99,6 +101,9 @@ Files included in the devel package:
 ------------------
 
 Port Notes:
+
+----- version 0.6.1-2 -----
+Rebuilt with cygport.
 
 ----- version 0.6.1-1 -----
 Version bump.
