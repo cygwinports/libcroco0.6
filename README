@@ -32,17 +32,17 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libcroco0.6-0.6.1-X-src.tar.bz2
+  unpack libcroco0.6-0.6.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libcroco0.6-0.6.1-X.cygport all
+  cygport ./libcroco0.6-0.6.2-X.cygport all
 
 This will create:
-  /usr/src/libcroco0.6-0.6.1-X-src.tar.bz2
-  /usr/src/libcroco0.6-0.6.1-X.tar.bz2
-  /usr/src/libcroco0.6-devel-0.6.1-X.tar.bz2
-  /usr/src/libcroco0.6_3-0.6.1-X.tar.bz2
+  /usr/src/libcroco0.6-0.6.2-X-src.tar.bz2
+  /usr/src/libcroco0.6-0.6.2-X.tar.bz2
+  /usr/src/libcroco0.6-devel-0.6.2-X.tar.bz2
+  /usr/src/libcroco0.6_3-0.6.2-X.tar.bz2
 
 -------------------------------------------
 
@@ -50,16 +50,16 @@ Files included in the main package:
 
 (libcroco0.6)
   /usr/bin/csslint-0.6.exe
-  /usr/share/doc/libcroco0.6-0.6.1/ABOUT-NLS
-  /usr/share/doc/libcroco0.6-0.6.1/AUTHORS
-  /usr/share/doc/libcroco0.6-0.6.1/ChangeLog
-  /usr/share/doc/libcroco0.6-0.6.1/COPYING
-  /usr/share/doc/libcroco0.6-0.6.1/COPYING.LIB
-  /usr/share/doc/libcroco0.6-0.6.1/HACKING
-  /usr/share/doc/libcroco0.6-0.6.1/INSTALL
-  /usr/share/doc/libcroco0.6-0.6.1/NEWS
-  /usr/share/doc/libcroco0.6-0.6.1/README
-  /usr/share/doc/libcroco0.6-0.6.1/TODO
+  /usr/share/doc/libcroco0.6-0.6.2/ABOUT-NLS
+  /usr/share/doc/libcroco0.6-0.6.2/AUTHORS
+  /usr/share/doc/libcroco0.6-0.6.2/ChangeLog
+  /usr/share/doc/libcroco0.6-0.6.2/COPYING
+  /usr/share/doc/libcroco0.6-0.6.2/COPYING.LIB
+  /usr/share/doc/libcroco0.6-0.6.2/HACKING
+  /usr/share/doc/libcroco0.6-0.6.2/INSTALL
+  /usr/share/doc/libcroco0.6-0.6.2/NEWS
+  /usr/share/doc/libcroco0.6-0.6.2/README
+  /usr/share/doc/libcroco0.6-0.6.2/TODO
 
 (libcroco0.6_3)
   /usr/bin/cygcroco-0.6-3.dll
@@ -101,6 +101,9 @@ Files included in the main package:
 ------------------
 
 Port Notes:
+
+----- version 0.6.2-1 -----
+Version bump.
 
 ----- version 0.6.1-2 -----
 Rebuilt with cygport.
