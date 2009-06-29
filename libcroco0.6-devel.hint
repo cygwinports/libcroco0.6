@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libcroco0.6_3 libglib2.0-devel libxml2-devel
+requires: libcroco0.6_3 libglib2.0-devel libxml2-devel
 external-source: libcroco0.6
 sdesc: "GNOME CSS2 parser library (development)"
 ldesc: "Libcroco is a standalone css2 parsing and manipulation library.
