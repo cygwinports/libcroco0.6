@@ -1,0 +1,14 @@
+ORIG_PN="libcroco"
+
+inherit gnome2
+
+DESCRIPTION="GNOME CSS parser library"
+
+DEPEND="gnome-common
+	pkgconfig(glib-2.0)
+	pkgconfig(libxml-2.0)"
+
+PKG_NAMES="${PN} ${PN}_3 ${PN}-devel"
+libcroco0_6_CONTENTS="usr/bin/*-0.6.exe usr/share/doc/"
+libcroco0_6_3_CONTENTS="usr/bin/*-0.6-3.dll"
+libcroco0_6_devel_CONTENTS="usr/bin/*-0.6-config usr/include/ usr/lib/ usr/share/gtk-doc/"
