@@ -1,5 +1,5 @@
 NAME="libcroco0.6"
-VERSION=0.6.6
+VERSION=0.6.7
 RELEASE=1
 CATEGORY="Gnome"
 SUMMARY="GNOME CSS parser library"
