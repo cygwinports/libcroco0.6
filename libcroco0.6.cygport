@@ -1,13 +1,14 @@
+ORIG_PN="libcroco"
+inherit gnome2
+
 NAME="libcroco0.6"
-VERSION=0.6.7
+VERSION=0.6.8
 RELEASE=1
-CATEGORY="Gnome"
+CATEGORY="GNOME"
 SUMMARY="GNOME CSS parser library"
 DESCRIPTION="Libcroco is a standalone CSS2 parsing and manipulation library.
 The parser provides a low level event driven SAC like API and a CSS object
 model-like API."
-ORIG_PN="libcroco"
-inherit gnome2
 
 DEPEND="gnome-common
 	pkgconfig(glib-2.0)
