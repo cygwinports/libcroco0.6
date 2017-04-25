@@ -2,7 +2,7 @@ ORIG_PN="libcroco"
 inherit gnome2
 
 NAME="libcroco0.6"
-VERSION=0.6.11
+VERSION=0.6.12
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="GNOME CSS parser library"
